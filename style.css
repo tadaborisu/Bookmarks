@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1f2025;
+}
+
+#bookmark{
+    margin-top: 10%;
+}
+
+#bookmark div{
+    display: flex;
+    max-width: 10%;
+    margin: auto;
+}
+
+#bookmark img{
+    margin: auto;
+    width: 20%;
+}
+
+#container{
+    display: flex;
+    margin-top: 5%;
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.links a{
+    margin: 10px;
+}
+
+a, p, h1{  
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
