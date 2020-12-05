@@ -1,8 +1,8 @@
 # Bookmarks
 Simple page with some links
 
-New pages open in a new tab without closing bookmarks
-<code> target="_blank" <code>
+New pages open in a new tab without closing bookmarks: <br>
+<code> <a href="#" target="_blank">#</a> </code>
 
 
 https://tadaborisu.github.io/Bookmarks/
