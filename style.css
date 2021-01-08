@@ -4,18 +4,25 @@
 }
 
 body{
-    background-color: #2e2e2e;
+    background-color: #181818;
 }
 
 #container{
-    margin-top: 20%;
+    background-color: #1f1f1f;
     display: flex;
-    height: 100%;
+    border: solid 1px #ff3e4a;
+    border-radius: 3px;
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .links{
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #2e2e2e;
+    padding: 50px;
+    border-radius: 3px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -30,4 +37,14 @@ a, p, h1{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: white;
+}
+
+hr{
+    border: solid 1px #2e2e2e;
+    width: 100%;
+}
+
+.links:hover hr{
+    transition: 0.5s;
+    border: solid 1px#ff3e4a;
 }
